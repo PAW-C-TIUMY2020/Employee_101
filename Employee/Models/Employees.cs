@@ -23,6 +23,7 @@ namespace Employee.Models
         public string Position { get; set; }
         [Column(TypeName = "varchar(100)")]
         [DisplayName("Office Location")]
-        public string OfficeLocation { get; set; }
+        public string OfficeLocation { get; set; }
+
     }
 }
